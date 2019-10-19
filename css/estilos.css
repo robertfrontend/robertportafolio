@@ -1,0 +1,508 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+html {
+	  scroll-behavior: smooth;
+}
+
+body {
+	background:white;
+	font-family: 'Bree Serif', serif;
+}
+
+
+/*    
+color cielo= #5B2AD9
+
+color azulito cielo= #64D2C1
+
+
+*/
+
+
+/*
+.div-bienvenida {
+	width: 100%;
+	height: 200px;
+	background: #5B2AD9;
+
+
+}
+
+
+.div-sub-bienv {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+
+	margin-top: 20px;
+	text-align: center;
+}
+
+.div-sub-bienv h1 {
+	color: white;
+	margin-top: 20px;
+	font-size: 40px;
+}
+
+.div-sub-bienv h3 {
+	color: #64D2C1;
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+*/
+
+
+.div-menu {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	
+	/*	border-bottom-right-radius: 100px;
+		border-bottom-left-radius: 100px;
+*/
+}
+
+
+.div-sub-menu {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	margin-left: 0px;
+	text-align: center;
+}
+
+.div-sub-menu br{
+	display: none;
+}
+
+.div-sub-menu a{
+	padding-left: 10px;
+	font-size: 20px;
+	color: #2A2A2A;
+
+}
+
+.div-sub-menu li, ul {
+	list-style: none;
+
+}
+
+
+.div-sub-menu a:hover {
+	border-bottom: 2px solid #64D2C1;
+	transition: all .2s linear;
+}
+
+
+/*----SOBRE MI----*/
+
+.div-sobre-mi {
+	width: 100%;
+	height: auto;
+	/*background: #5B2AD9;*/
+	margin-bottom: 100px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+}
+
+.div-sub-sobre {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
+.div-soy {
+	text-align: center;
+}
+
+
+.div-soy h1 {
+
+	font-size: 40px;
+	color: #2A2A2A;
+}
+
+.div-soy strong {
+	color: #5B2AD9;
+}
+
+.div-soy p {
+	font-size: 20px;
+	text-align: center;
+	color: #545454;
+	
+}
+
+.div-conoceme {
+		position: relative;
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+		
+}
+
+.conoceme {
+
+	border-radius: 5px;
+	background:#5B2AD9;
+	color: white;
+	font-size: 18px;
+	padding: 15px 20px;
+	cursor: pointer;
+	margin-left: 10px;
+	box-shadow: 1px 5px 10px gray;
+	text-decoration: none;
+}
+
+.conoceme:hover {
+	background: white;
+	color: #545454;;
+	transition: all .2s linear;
+	text-decoration-line: none;
+}
+
+.div-desc-soy {
+	display: none;
+	margin-left: 0;
+	text-align: center;
+	width:100%;
+
+
+}
+
+.control-sobre {
+	width: 100%;
+}
+
+.container-sobre {
+	margin-left: 100px;
+	margin-right: 100px;	
+}
+
+
+.div-desc-soy h1 {
+	font-size: 30px;
+	color: #5B2AD9;
+
+}
+
+
+
+.div-desc-soy p {
+	text-align: center;
+	color: #454545;
+	font-size: 20px;
+}
+
+.active-desc {
+	display: block;
+	height:auto;
+	transition: all .1s linear;
+}
+
+
+/*--------*/
+.icono-div {
+		display: none;
+}
+
+
+
+/*--------------*/
+
+
+
+
+.div-portafolio {
+	
+	padding: 0 0px;
+	margin-top: 100px;
+
+
+}
+
+.div-portafolio h1 {
+	text-align: center;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-size: 30px;
+	color: #5B2AD9;
+}
+
+.div-portafolio p {
+	color: #595965;
+	text-align: center;
+	cursor: pointer;
+}
+
+.imagen-por {
+	display: inline-block;
+	flex-wrap: wrap;
+	max-width: 100%;
+	object-fit: cover;
+		border-radius: 20px;
+}
+
+.portafolio{
+	border-radius: 20px;
+	height: auto;
+	box-shadow: 1px 5px 10px gray;
+
+}
+
+
+.portafolio:hover {
+	
+}
+
+.div-sub-portafolio {
+	width: 32%;
+	margin-top: 50px;
+	margin-left: 1%;
+	display: inline-block;
+	flex-wrap: wrap;
+
+}
+
+
+.div-imagen {
+	
+	width: initial;
+	height: auto;
+}
+
+.div-desc{
+	
+}
+
+.div-desc h3, p{
+	color: #5B2AD9;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+
+}
+
+
+
+
+.div-container {
+	margin-left: 50px;	
+	margin-right: 50px;
+}
+
+
+.control-bton {
+
+	width: 100%;
+	height: 150px;
+
+}
+
+.div-boton {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+
+	text-align: center;
+}
+
+.btn-vermas {
+	box-shadow: 1px 5px 10px gray;
+	background: #5B2AD9;
+	border-radius: 5px;
+	margin-top: 0px;
+	padding:12px 40px;
+	font-size: 17px;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.btn-vermas:hover {
+	background: white;
+	color: #545454;
+	transition: all .1s linear;
+	text-decoration-line: none;	
+
+}
+
+
+
+.div-sub-portafolio-2 {
+	width: 32%;
+	margin-top: 50px;
+	margin-left: 1%;
+	display: inline-block;
+	flex-wrap: wrap;
+
+
+}
+
+.seccion-ocultos {
+	display: none;
+
+}
+
+.is-active {
+	
+	display: block;
+}
+
+
+/*-----------------*/
+
+
+.div-padre-tec {
+	
+	margin-top: 150px;
+}
+
+
+.div-padre-tec h1 {
+	text-align: center;
+	color: #5B2AD9;
+	font-size: 30px;
+}
+
+
+.div-sub-tec {
+	box-shadow: 1px 5px 10px gray;
+	border-radius: 20px;
+	width: 26%;
+	margin-top: 50px;
+	margin-left: 5%;
+	display: inline-block;
+	flex-wrap: wrap;
+}
+
+.div-tec {
+	border-radius: 20px;
+	height: auto;
+
+	
+
+}
+
+.div-imagen-tec {
+	width:initial;
+	height: auto;
+	text-align: center;
+	
+}
+
+.div-imagen-tec img{
+	width:30%;
+}
+
+.div-tit {
+	height: auto;
+}
+
+
+.div-tit h3 {
+	color: #5B2AD9;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.text-tec {
+	color: #595965;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+/*------contactos-----*/
+
+.div-trabajemos {
+	width: 100%;
+	background: #5B2AD9;
+	height: 300px;
+/*	border-top-right-radius: 200px;
+	border-top-left-radius: 200px;*/
+}
+
+
+.div-sub-trab {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-top: 50px;
+
+	text-align: center;
+}
+
+
+.div-sub-trab h2 {
+	color: white;
+	margin-right: 0px;
+
+}
+.div-sub-trab button {
+	
+	border: 1px solid white;
+	background: none;
+	font-size: 17px;
+	color:white;
+	padding: 12px 40px;
+	border-radius: 20px;
+	margin-left: 20px;
+	cursor: progress;
+}
+
+
+.div-sub-trab button:hover {
+	transition: all .1s linear;
+	border: 1px solid white;
+}
+
+
+
+.div-redes {
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	width: 100%; 
+	text-align: center;
+}
+
+.div-redes span {
+	padding-left: 20px;
+}
+
+
+.creditos {
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: center;
+
+	margin-top: 50px;
+}	
+
+
+.creditos a {
+	
+	color: rgba(33,33,35);
+}
+
+.creditos p {
+	color: white;
+}
