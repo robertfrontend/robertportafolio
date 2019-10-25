@@ -9,17 +9,13 @@
 		position: fixed;
 		top: 0;
 		float: left;
-		margin-top: 50px;
-		margin-left: 10px;
+		margin-top: 0px;
+		margin-left: 0px;
 		display: block;
 		z-index: 3;	
+		width: 100%;
 	}
 
-	.icono {
-		background: white;
-		border-radius: 200px;
-
-	}
 
 
 	.div-sub-menu br{
@@ -30,15 +26,15 @@
 	.div-menu {
 		position: fixed;
 		margin-top: 0px;
-		background:#5B2AD9;
-		width: 300px;
+		background:rgba(45,19,140,0.7);
+		width: 100%;
 		height: 100vh;
 		margin-left: -100vw;
 		z-index: 2;	
 	}
 
 	.activador-menu{
-		
+	
 		margin-left: 0px;
 		transition: all .2s linear;
 		
@@ -47,7 +43,7 @@
 	.div-menu a{
 		color: white;
 		text-decoration: none;
-		font-size: 30px;
+		font-size: 40px;
 	}
 
 	.div-menu a:hover {
@@ -84,6 +80,12 @@
 		flex-wrap: wrap;
 	}
 
+	.icono-menu {
+		color: #5B2AD9;
+		background: white;
+		border-radius: 100px;
+	}
+
 
 
 
@@ -110,7 +112,7 @@
 	}
 
 	.div-sub-portafolio-2 {
-		width: 60%;
+		width: 80%;
 		margin-top: 50px;
 		margin-left: 10%;
 		display: block;
@@ -125,8 +127,10 @@
 @media screen and (max-width: 538px){
 	
 	.icono-div {
-		margin-top: 5px;
+		margin-top: 15px;
+
 	}
+
 
 	.container-sobre {
 		margin-left: 0px;
@@ -141,7 +145,7 @@
 
 
 	.div-soy h1 {
-		font-size: 30px;
+		font-size: 40px;
 	}
 
 	.div-soy p {
@@ -173,7 +177,7 @@
 	}
 
 	.div-menu {
-		width: 50%;
+		width: 100%;
 		
 	}
 

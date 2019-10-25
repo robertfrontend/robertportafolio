@@ -11,23 +11,18 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet"> 
 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+      <link rel="stylesheet" type="text/css" href="css/iconos.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
 <body>
 	
-<!--	<section class="bienvenida">
-
-		<div class="div-bienvenida">
-
-			<div class="div-sub-bienv">
-
-				<h1>Soy Robert Romero</h1>
-
-				<h3>Diseñador y Desarrollador Web</h3>
-			</div>
-		</div>
-	</section> -->
 
 
 
@@ -35,7 +30,7 @@
 
 		<div class="icono-div">
 
-			<a href="#l" id="bt-menu"><img class="icono" src="imagenes/men.png"></a>
+			<a href="#l" id="bt-menu"><i class="material-icons md-36 icono-menu">menu</i></a>
 
 		</div>
 
@@ -84,13 +79,20 @@
 				</div> <!-- div-soy -->
 
 			
-				<div class="div-conoceme">
-
-					<a href="#div-desc-soy" class="conoceme" id="conoceme">
-					Conoceme Mas
-					</a>
+				<div class="div-btn-conoceme">
+					
 						
-				</div>
+					<a href="#div-desc-soy">
+						
+						<button type="button" class="btn btn-success btn-lg conoceme" id="conoceme">Conoceme mas</button>
+						
+					</a>
+					
+
+
+				</div><!--div-btn-conoceme-->
+
+
 
 			</div> <!-- div-sub-sobre -->
 
@@ -150,6 +152,7 @@
 </section>
 
 
+<!--Seccion tecnologias-->
 
 <section class="seccion-tecnologias">
 
@@ -174,9 +177,17 @@
 
 			
 						<h3>HTML5</h3>
-					
 
+
+					
+					<div class="progress" id="progreso-html">
+  						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" id="sub-prog-html">95%</div>
+						</div>
+					
+					
 					<p class="text-tec" id="text-tec">Lorem ipsum dolor sit amet, neque facere voluptates ducimus, iure quaerat dignissimos modi repellat sit tempore quam laboriosam, inventore cum.</p>
+
+
 
 				</div>
 
@@ -201,6 +212,11 @@
 
 					
 						<h3>CSS3</h3>
+
+
+					<div class="progress" id="progreso-css">
+  						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" id="sub-prog-css">92%</div>
+					</div>
 					
 
 					<p class="text-tec" id="text-tec">Lorem ipsum dolor sit amet, neque facere voluptates ducimus, iure quaerat dignissimos modi repellat sit tempore quam laboriosam, inventore cum.</p>
@@ -228,6 +244,10 @@
 
 					<h3>JAVASCRIPT</h3>
 
+					<div class="progress" id="progreso-js">
+  						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100" id="sub-prog-js">7%</div>
+					</div>					
+
 					<p class="text-tec" id="text-tec">Lorem ipsum dolor sit amet, neque facere voluptates ducimus, iure quaerat dignissimos modi repellat sit tempore quam laboriosam, inventore cum.</p>
 
 				</div>
@@ -252,6 +272,10 @@
 
 					<h3>Responsive Desing</h3>
 
+					<div class="progress" id="progreso-re">
+  						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" id="sub-prog-re">95%</div>
+					</div>						
+
 					<p class="text-tec" id="text-tec">Lorem ipsum dolor sit amet, neque facere voluptates ducimus, iure quaerat dignissimos modi repellat sit tempore quam laboriosam, inventore cum.</p>
 
 				</div>
@@ -275,6 +299,10 @@
 				<div class="div-tit">
 
 					<h3>Git, control de versiones</h3>
+
+					<div class="progress" id="progreso-git">
+  						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" id="sub-prog-git">82%</div>
+					</div>					
 
 					<p class="text-tec" id="text-tec">Lorem ipsum dolor sit amet, neque facere voluptates ducimus, iure quaerat dignissimos modi repellat sit tempore quam laboriosam, inventore cum.</p>
 
@@ -301,6 +329,10 @@
 
 					<h3>Bootstrap</h3>
 
+					<div class="progress" id="progreso-bot">
+  						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100" id="sub-prog-bot">12%</div>
+					</div>						
+
 					<p class="text-tec" id="text-tec">Lorem ipsum dolor sit amet, neque facere voluptates ducimus, iure quaerat dignissimos modi repellat sit tempore quam laboriosam, inventore cum.</p>
 
 				</div>
@@ -310,11 +342,72 @@
 
 		</div> <!--div-sub-tec-->
 
+
+		<div class="div-sub-tec">
+
+			<div class="div-tec">
+
+				<div class="div-imagen-tec">
+
+					<img  src="imagenes/icons8-react-native-144.png">
+
+				</div>
+
+
+				<div class="div-tit">
+
+					<h3>React js</h3>
+
+					<div class="progress" id="progreso-react">
+  						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100" id="sub-prog-react">0%</div>
+					</div>						
+
+					<p class="text-tec" id="text-tec">Lorem ipsum dolor sit amet, neque facere voluptates ducimus, iure quaerat dignissimos modi repellat sit tempore quam laboriosam, inventore cum.</p>
+
+				</div>
+
+			</div> <!--div-tec-->
+			
+
+		</div> <!--div-sub-tec-->
+
+		<div class="div-sub-tec">
+
+			<div class="div-tec">
+
+				<div class="div-imagen-tec">
+
+					<img  src="imagenes/logo (1).png">
+
+				</div>
+
+
+				<div class="div-tit">
+
+					<h3>Redux</h3>
+
+					<div class="progress" id="progreso-redux">
+  						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100" id="sub-prog-redux">0%</div>
+					</div>						
+
+					<p class="text-tec" id="text-tec">Lorem ipsum dolor sit amet, neque facere voluptates ducimus, iure quaerat dignissimos modi repellat sit tempore quam laboriosam, inventore cum.</p>
+
+				</div>
+
+			</div> <!--div-tec-->
+			
+
+		</div> <!--div-sub-tec-->
+
+
+
 	</div> <!--div-padre-tec-->
 
 </div>
 
 </section>
+
+
 
 
 
@@ -565,9 +658,15 @@
 
 	<div class="control-bton" id="control-bton">
 				
-		<div class="div-boton">
+			<div class="div-boton">
 
-			<a href="#seccion-ocultos" class="btn-vermas" id="btn-vermas">Ver mas...</a>
+				<a href="#seccion-ocultos">
+				
+					<button type="button" class="btn btn-primary btn-lg" id="btn-vermas">Ver mas</button>
+
+				</a>
+					
+
 
 				</div>
 
@@ -593,7 +692,7 @@
 			<div class="div-sub-trab">
 
 				<h2>Trabajemos juntos?
-					<button>Contactame</button>
+					<h1>Contactame en:</h1>
 				</h2>
 
 			</div> <!--div-sub-trab-->
@@ -637,23 +736,17 @@
 						</a>
 						
 					</span>
+					<div class="div-derechos">
+						<p>&copy;Desing by: Robert Romero</p>
+						
+					</div>
 
 				</div>
 
+	
+
 			</section>
-
-			<div class="creditos">
-
-
-				<p><img style="width: 12px" src="imagenes/copy.png">
-					Copyright 2019 creditos a
-					Robert Romero. 
-				</p>
-
-				<p>icon by
-					<a target="_blank" href="https://iconos8.es">Icons8</a>
-				</p> 
-			</div>
+			
 
 
 		</div> <!--div-trabajemos-->
@@ -665,5 +758,6 @@
 
 
 	<script type="text/javascript" src="index.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

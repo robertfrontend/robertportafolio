@@ -58,6 +58,8 @@ color azulito cielo= #64D2C1
 */
 
 
+
+
 .div-menu {
 	width: 100%;
 	height: auto;
@@ -86,6 +88,8 @@ color azulito cielo= #64D2C1
 	padding-left: 10px;
 	font-size: 20px;
 	color: #2A2A2A;
+	font-weight:bolder;
+	font-weight: 600;
 
 }
 
@@ -96,9 +100,10 @@ color azulito cielo= #64D2C1
 
 
 .div-sub-menu a:hover {
-	border-bottom: 2px solid #64D2C1;
-	transition: all .2s linear;
+ 	text-decoration: none;
 }
+
+
 
 
 /*----SOBRE MI----*/
@@ -125,7 +130,9 @@ color azulito cielo= #64D2C1
 
 .div-soy h1 {
 
-	font-size: 40px;
+	font-size: 50px;
+	font-weight:bolder;
+	font-weight: 700;
 	color: #2A2A2A;
 }
 
@@ -134,40 +141,41 @@ color azulito cielo= #64D2C1
 }
 
 .div-soy p {
+	margin-bottom: 10px;
 	font-size: 20px;
+	font-weight:bolder;
+	font-weight: 500;
 	text-align: center;
 	color: #545454;
 	
 }
 
-.div-conoceme {
+.div-btn-conoceme {
 		position: relative;
 		float: left;
 		width: 100%;
 		text-align: center;
-		margin-top: 10px;
+		margin-top: 30px;
 		
 }
 
-.conoceme {
+#conoceme {
+	background: #5B2AD9;
 
-	border-radius: 5px;
-	background:#5B2AD9;
-	color: white;
-	font-size: 18px;
-	padding: 15px 20px;
-	cursor: pointer;
-	margin-left: 10px;
-	box-shadow: 1px 5px 10px gray;
-	text-decoration: none;
 }
 
-.conoceme:hover {
-	background: white;
-	color: #545454;;
-	transition: all .2s linear;
-	text-decoration-line: none;
+
+
+.icon-abajo {
+	position: absolute;
+	float: right;
+	margin-left: 5px;
+	margin-top: 0px;
+
 }
+
+
+
 
 .div-desc-soy {
 	display: none;
@@ -189,9 +197,13 @@ color azulito cielo= #64D2C1
 
 
 .div-desc-soy h1 {
-	font-size: 30px;
+	font-size: 40px;
 	color: #5B2AD9;
 
+}
+
+.div-desc-soy h3 {
+	font-size: 40px;
 }
 
 
@@ -234,6 +246,8 @@ color azulito cielo= #64D2C1
 	margin-left: 10px;
 	margin-top: 30px;
 	font-size: 30px;
+		font-weight:bolder;
+	font-weight: 700;
 	color: #5B2AD9;
 }
 
@@ -241,6 +255,8 @@ color azulito cielo= #64D2C1
 	color: #595965;
 	text-align: center;
 	cursor: pointer;
+	font-weight:bolder;
+	font-weight: 500;
 }
 
 .imagen-por {
@@ -288,6 +304,7 @@ color azulito cielo= #64D2C1
 	margin-top: 5px;
 	margin-bottom: 5px;
 	text-align: center;
+	font-size: 20px;
 
 }
 
@@ -317,16 +334,10 @@ color azulito cielo= #64D2C1
 	text-align: center;
 }
 
-.btn-vermas {
-	box-shadow: 1px 5px 10px gray;
+#btn-vermas {
+	padding: 10px 40px;
 	background: #5B2AD9;
-	border-radius: 5px;
-	margin-top: 0px;
-	padding:12px 40px;
-	font-size: 17px;
-	color: white;
-	cursor: pointer;
-	text-decoration: none;
+
 }
 
 .btn-vermas:hover {
@@ -372,6 +383,8 @@ color azulito cielo= #64D2C1
 .div-padre-tec h1 {
 	text-align: center;
 	color: #5B2AD9;
+	font-weight:bolder;
+	font-weight: 700;
 	font-size: 30px;
 }
 
@@ -414,7 +427,10 @@ color azulito cielo= #64D2C1
 	color: #5B2AD9;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	font-size: 20px;
 	text-align: center;
+	font-weight:bold;
+	font-weight: 700;
 }
 
 .text-tec {
@@ -456,23 +472,14 @@ color azulito cielo= #64D2C1
 
 }
 .div-sub-trab button {
-	
-	border: 1px solid white;
+	border: none;
 	background: none;
-	font-size: 17px;
+	font-size: 20px;
 	color:white;
 	padding: 12px 40px;
 	border-radius: 20px;
-	margin-left: 20px;
-	cursor: progress;
+	margin-left: -10px;
 }
-
-
-.div-sub-trab button:hover {
-	transition: all .1s linear;
-	border: 1px solid white;
-}
-
 
 
 .div-redes {
@@ -505,4 +512,96 @@ color azulito cielo= #64D2C1
 
 .creditos p {
 	color: white;
+}
+
+
+
+/*barra de progreso*/
+
+#progreso-html {
+	background: #e9ecef;
+}
+
+#sub-prog-html {
+	width: 95%;
+	background: rgba(255,109,0);
+}
+
+
+
+#progreso-css {
+	background: #e9ecef;
+}
+
+#sub-prog-css {
+	width: 92%;
+	background: #039ae4;
+}
+
+
+
+#progreso-js {
+	background: #e9ecef;
+}
+
+#sub-prog-js {
+	width: 7%;
+	background: #ffd600;
+}
+
+
+#progreso-re {
+	background: #e9ecef;
+}
+
+#sub-prog-re {
+	width: 95%;
+	background: #353535;
+}
+
+
+
+
+#progreso-git {
+	background: #e9ecef;
+}
+
+#sub-prog-git {
+	width: 82%;
+	background: #f4511e;
+}
+
+
+#progreso-bot {
+	background: #e9ecef;
+}
+
+#sub-prog-bot {
+	width: 12%;
+	background: #673ab7;
+}
+
+
+#progreso-react {
+	background: #e9ecef;
+}
+
+#sub-prog-react {
+	width: auto;
+	background: #80deea;
+}
+
+#progreso-redux {
+	background: #e9ecef;
+}
+
+#sub-prog-redux {
+	width: auto;
+	background: #673ab7;
+}
+
+
+.div-derechos p {
+	color: white;
+	padding-top: 10px;
 }
