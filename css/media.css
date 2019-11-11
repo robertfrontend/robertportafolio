@@ -14,14 +14,9 @@
 		display: block;
 		z-index: 3;	
 		width: 100%;
+		/* background: royalblue; */
 	}
 
-
-
-	.div-sub-menu br{
-		margin-top: 50px;
-		display: block;
-	}
 
 	.div-menu {
 		position: fixed;
@@ -31,16 +26,18 @@
 		height: 100vh;
 		margin-left: -100vw;
 		z-index: 2;	
-	}
-
-	.activador-menu{
+		justify-content: center;
 	
-		margin-left: 0px;
-		transition: all .2s linear;
-		
 	}
 
+	.div-sub-menu{
+		padding-top: 80px;
+		text-align: center;
+	}
 	.div-menu a{
+		display: block;
+		margin-top: 0px;
+		padding: 10px;
 		color: white;
 		text-decoration: none;
 		font-size: 40px;
@@ -50,10 +47,19 @@
 		border-bottom: none;
 	}
 
-	.div-sub-menu {
-		margin-top: 120px;
+
+	.div-sub-menu br{
+		margin-top: 0px;
+		display: block;
 	}
+
+	.activador-menu{
 	
+		margin-left: 0px;
+		transition: all .2s linear;
+		
+	}
+
 	.div-sub-portafolio {
 		width: 35%;
 		margin-top: 50px;
@@ -80,10 +86,12 @@
 		flex-wrap: wrap;
 	}
 
-	.icono-menu {
-		color: #5B2AD9;
-		background: white;
-		border-radius: 100px;
+	#icono-menu {
+		color: rgb(255, 255, 255);
+		background: rgba(75, 68, 172, 0.938);
+		border-radius: 50px;
+		font-size: 38px;
+		padding: 10px;
 	}
 
 
@@ -125,12 +133,10 @@
 
 
 @media screen and (max-width: 538px){
-	
-	.icono-div {
-		margin-top: 15px;
 
+	.div-sobre-mi{
+		padding: 50px;
 	}
-
 
 	.container-sobre {
 		margin-left: 0px;
@@ -140,9 +146,7 @@
 	.div-sub-sobre {
 		padding-top: 50px;
 		padding-bottom: 0px;
-
 	}
-
 
 	.div-soy h1 {
 		font-size: 40px;
@@ -171,7 +175,6 @@
 		color: white;
 	}
 
-
 	.div-trabajemos {
 		height: 400px;
 	}
@@ -180,10 +183,6 @@
 		width: 100%;
 		
 	}
-
-
-
-
 
 
 
