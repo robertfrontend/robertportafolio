@@ -14,7 +14,7 @@ body {
 }
 
 
-/*    
+/*
 color cielo= #5B2AD9
 
 color azulito cielo= #64D2C1
@@ -64,7 +64,9 @@ color azulito cielo= #64D2C1
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
 	/*	border-bottom-right-radius: 100px;
 		border-bottom-left-radius: 100px;
 */
@@ -72,12 +74,11 @@ color azulito cielo= #64D2C1
 
 
 .div-sub-menu {
-	position: relative;
-	float: left;
-	width: 100%;
-	margin-top: 10px;
+	width: 50%;
+	margin-top: 0px;
 	margin-left: 0px;
-	text-align: center;
+	text-align: right;
+	/* background: black; */
 }
 
 .div-sub-menu br{
@@ -85,7 +86,7 @@ color azulito cielo= #64D2C1
 }
 
 .div-sub-menu a{
-	padding-left: 10px;
+	padding: 20px;
 	font-size: 20px;
 	color: #2A2A2A;
 	font-weight:bolder;
@@ -103,7 +104,11 @@ color azulito cielo= #64D2C1
  	text-decoration: none;
 }
 
-
+.div-logo-per{
+	width: 50%;
+	background: red;
+	display: none;
+}
 
 
 /*----SOBRE MI----*/
@@ -147,7 +152,7 @@ color azulito cielo= #64D2C1
 	font-weight: 500;
 	text-align: center;
 	color: #545454;
-	
+
 }
 
 .div-btn-conoceme {
@@ -156,7 +161,7 @@ color azulito cielo= #64D2C1
 		width: 100%;
 		text-align: center;
 		margin-top: 30px;
-		
+
 }
 
 #conoceme {
@@ -192,7 +197,7 @@ color azulito cielo= #64D2C1
 
 .container-sobre {
 	margin-left: 100px;
-	margin-right: 100px;	
+	margin-right: 100px;
 }
 
 
@@ -234,7 +239,7 @@ color azulito cielo= #64D2C1
 
 
 .div-portafolio {
-	
+
 	padding: 0 0px;
 	margin-top: 100px;
 
@@ -276,7 +281,7 @@ color azulito cielo= #64D2C1
 
 
 .portafolio:hover {
-	
+
 }
 
 .div-sub-portafolio {
@@ -290,13 +295,13 @@ color azulito cielo= #64D2C1
 
 
 .div-imagen {
-	
+
 	width: initial;
 	height: auto;
 }
 
 .div-desc{
-	
+
 }
 
 .div-desc h3, p{
@@ -312,7 +317,7 @@ color azulito cielo= #64D2C1
 
 
 .div-container {
-	margin-left: 50px;	
+	margin-left: 50px;
 	margin-right: 50px;
 }
 
@@ -344,7 +349,7 @@ color azulito cielo= #64D2C1
 	background: white;
 	color: #545454;
 	transition: all .1s linear;
-	text-decoration-line: none;	
+	text-decoration-line: none;
 
 }
 
@@ -366,7 +371,7 @@ color azulito cielo= #64D2C1
 }
 
 .is-active {
-	
+
 	display: block;
 }
 
@@ -375,7 +380,6 @@ color azulito cielo= #64D2C1
 
 
 .div-padre-tec {
-	
 	margin-top: 150px;
 }
 
@@ -403,7 +407,7 @@ color azulito cielo= #64D2C1
 	border-radius: 20px;
 	height: auto;
 
-	
+
 
 }
 
@@ -411,7 +415,7 @@ color azulito cielo= #64D2C1
 	width:initial;
 	height: auto;
 	text-align: center;
-	
+
 }
 
 .div-imagen-tec img{
@@ -486,7 +490,7 @@ color azulito cielo= #64D2C1
 	position: relative;
 	float: left;
 	margin-top: 20px;
-	width: 100%; 
+	width: 100%;
 	text-align: center;
 }
 
@@ -502,11 +506,11 @@ color azulito cielo= #64D2C1
 	text-align: center;
 
 	margin-top: 50px;
-}	
+}
 
 
 .creditos a {
-	
+
 	color: rgba(33,33,35);
 }
 
