@@ -272,8 +272,6 @@ color azulito cielo= #64D2C1
 .portafolio{
 	border-radius: 20px;
 	height: auto;
-	box-shadow: 1px 5px 10px gray;
-
 }
 
 
@@ -309,8 +307,6 @@ color azulito cielo= #64D2C1
 	font-size: 20px;
 
 }
-
-
 
 
 .div-container {
@@ -350,8 +346,6 @@ color azulito cielo= #64D2C1
 
 }
 
-
-
 .div-sub-portafolio-2 {
 	width: 32%;
 	margin-top: 50px;
@@ -364,48 +358,43 @@ color azulito cielo= #64D2C1
 
 .seccion-ocultos {
 	display: none;
-
 }
 
 .is-active {
-
 	display: block;
 }
 
 
-/*-----------------*/
-
-
-.div-padre-tec {
-	margin-top: 150px;
-}
-
-
-.div-padre-tec h1 {
+.titulo{
 	text-align: center;
-	color: #5B2AD9;
-	font-weight:bolder;
-	font-weight: 700;
-	font-size: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-weight: 700;
+    color: #5B2AD9;
 }
 
+/*-----------------*/
+.div-padre-tec {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
 .div-sub-tec {
-	box-shadow: 1px 5px 10px gray;
+	/* box-shadow: 1px 5px 10px gray; */
 	border-radius: 20px;
-	width: 26%;
-	margin-top: 50px;
-	margin-left: 5%;
-	display: inline-block;
-	flex-wrap: wrap;
+	width: 25%;
+	margin-top: 0px;
+	margin-left: 0%;
 }
 
 .div-tec {
 	border-radius: 20px;
 	height: auto;
-
-
-
 }
 
 .div-imagen-tec {
@@ -439,13 +428,6 @@ color azulito cielo= #64D2C1
 	text-align: center;
 	cursor: pointer;
 }
-
-
-
-
-
-
-
 /*------contactos-----*/
 
 .div-trabajemos {
@@ -462,7 +444,6 @@ color azulito cielo= #64D2C1
 	float: left;
 	width: 100%;
 	margin-top: 50px;
-
 	text-align: center;
 }
 
@@ -470,7 +451,6 @@ color azulito cielo= #64D2C1
 .div-sub-trab h2 {
 	color: white;
 	margin-right: 0px;
-
 }
 .div-sub-trab button {
 	border: none;
@@ -481,7 +461,6 @@ color azulito cielo= #64D2C1
 	border-radius: 20px;
 	margin-left: -10px;
 }
-
 
 .div-redes {
 	position: relative;
@@ -495,16 +474,13 @@ color azulito cielo= #64D2C1
 	padding-left: 20px;
 }
 
-
 .creditos {
 	position: relative;
 	float: left;
 	width: 100%;
 	text-align: center;
-
 	margin-top: 50px;
 }
-
 
 .creditos a {
 
@@ -513,92 +489,6 @@ color azulito cielo= #64D2C1
 
 .creditos p {
 	color: white;
-}
-
-
-
-/*barra de progreso*/
-
-#progreso-html {
-	background: #e9ecef;
-}
-
-#sub-prog-html {
-	width: 95%;
-	background: rgba(255,109,0);
-}
-
-
-
-#progreso-css {
-	background: #e9ecef;
-}
-
-#sub-prog-css {
-	width: 92%;
-	background: #039ae4;
-}
-
-
-
-#progreso-js {
-	background: #e9ecef;
-}
-
-#sub-prog-js {
-	width: 7%;
-	background: #ffd600;
-}
-
-
-#progreso-re {
-	background: #e9ecef;
-}
-
-#sub-prog-re {
-	width: 95%;
-	background: #353535;
-}
-
-
-
-
-#progreso-git {
-	background: #e9ecef;
-}
-
-#sub-prog-git {
-	width: 82%;
-	background: #f4511e;
-}
-
-
-#progreso-bot {
-	background: #e9ecef;
-}
-
-#sub-prog-bot {
-	width: 12%;
-	background: #673ab7;
-}
-
-
-#progreso-react {
-	background: #e9ecef;
-}
-
-#sub-prog-react {
-	width: auto;
-	background: #80deea;
-}
-
-#progreso-redux {
-	background: #e9ecef;
-}
-
-#sub-prog-redux {
-	width: auto;
-	background: #673ab7;
 }
 
 

@@ -102,9 +102,8 @@
 
 @media screen and (max-width: 610px) {
 	.div-sub-tec{
-		box-shadow: 0px 0px 20px gray;
 		border-radius: 20px;
-		width: 80%;
+		width: 40%;
 		margin-top: 50px;
 		margin-left: 10%;
 		display: inline-block;
