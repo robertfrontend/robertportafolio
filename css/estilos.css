@@ -101,12 +101,15 @@ color azulito cielo= #64D2C1
  	text-decoration: none;
 }
 
-.div-logo-per{
+/* .div-logo-per{
 	width: 50%;
 	background: red;
-	display: none;
+	 display: none; 
 }
 
+.div-logo-per img {
+	width: 5%;
+} */
 
 /*----SOBRE MI----*/
 
@@ -129,6 +132,9 @@ color azulito cielo= #64D2C1
 	text-align: center;
 }
 
+.div-soy img {
+	border-radius:100px;
+}
 
 .div-soy h1 {
 
@@ -276,7 +282,8 @@ color azulito cielo= #64D2C1
 
 
 .portafolio:hover {
-
+	transition: all .3s;
+	transform: translateY(-20px);
 }
 
 .div-sub-portafolio {
@@ -352,8 +359,6 @@ color azulito cielo= #64D2C1
 	margin-left: 1%;
 	display: inline-block;
 	flex-wrap: wrap;
-
-
 }
 
 .seccion-ocultos {
@@ -393,7 +398,7 @@ color azulito cielo= #64D2C1
 }
 
 .div-tec {
-	border-radius: 20px;
+	border-radius: 2px;
 	height: auto;
 }
 
@@ -401,11 +406,15 @@ color azulito cielo= #64D2C1
 	width:initial;
 	height: auto;
 	text-align: center;
-
 }
 
 .div-imagen-tec img{
 	width:30%;
+}
+
+.div-imagen-tec img:hover{
+	transition: all .3s;
+	transform: translateY(-20px);
 }
 
 .div-tit {
