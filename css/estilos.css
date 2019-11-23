@@ -11,8 +11,23 @@ html {
 body {
 	background:white;
 	font-family: 'Bree Serif', serif;
+	transition: all .7s ease-in-out;
+
 }
 
+body::-webkit-scrollbar{
+	width: 10px;
+	background:transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+	background: royalblue;
+	border-radius: 30px;
+}
+
+a {
+	text-decoration: none !important ; 
+}
 
 /*
 color cielo= #5B2AD9
@@ -21,7 +36,93 @@ color azulito cielo= #64D2C1
 
 
 */
+/* Button Slider Dark Mode */
 
+/* .switch-container { 
+	position: absolute;
+	bottom: 50px;
+} */
+
+#switch-container.flotar {
+	position: fixed;
+	bottom: 100px;
+	right: 50px;
+	z-index: 100;
+	background: white;
+	width: 100px;
+	height: 35px;
+}
+
+
+.switch-title {
+	color: #5B2AD9;
+	top: 5px;
+	position: relative;
+	font-weight: 600;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 25px;
+	top: 5px;
+  }
+  
+  .switch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+  }
+  
+  .slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  .slider:before {
+	position: absolute;
+	content: "";
+	height: 19px;
+	width: 19px;
+	left: 2px;
+	bottom: 3px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+  }
+  
+  input:checked + .slider {
+	background-color: #5B2AD9;
+  }
+  
+  input:focus + .slider {
+	box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+  }
+
+  /* Rounded sliders */
+  .slider.round {
+	border-radius: 34px;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+  }
+
+  /* End Button Slider Dark Mode */
 
 .div-menu {
 	width: 100%;
@@ -30,7 +131,6 @@ color azulito cielo= #64D2C1
 	display: flex;
 	flex-direction: row;
 	justify-content:flex-end;
-
 }
 
 
@@ -156,6 +256,8 @@ color azulito cielo= #64D2C1
 }
 
 
+
+
 .icon-abajo {
 	position: absolute;
 	float: right;
@@ -253,7 +355,6 @@ color azulito cielo= #64D2C1
 .div-imagen {
 	width: initial;
 	height: auto;
-	background: red;
 }
 
 .div-desc{
@@ -411,15 +512,6 @@ color azulito cielo= #64D2C1
 	color: #5B2AD9;
 	margin-right: 0px;
 }
-.div-sub-trab button {
-	border: none;
-	background: none;
-	font-size: 20px;
-	color:white;
-	padding: 12px 40px;
-	border-radius: 20px;
-	margin-left: -10px;
-}
 
 .div-redes {
 	position: relative;
@@ -432,6 +524,7 @@ color azulito cielo= #64D2C1
 .div-redes span {
 	padding-left: 20px;
 }
+
 
 .creditos {
 	position: relative;
@@ -453,4 +546,44 @@ color azulito cielo= #64D2C1
 .div-derechos p {
 	color:#5B2AD9;
 	padding-top: 10px;
+}
+
+
+/*Seccion estilo para el dark mode*/
+body.dark{
+	background:rgb(1, 0, 15);
+}
+
+body.dark #switch-container.flotar{
+	background: rgb(0, 0, 0);
+}
+
+body.dark .div-soy h1 {
+	color: rgb(255, 255, 255);
+}
+
+body.dark .div-soy p {
+	color: white;
+}
+
+body.dark .boton-2{
+	background: transparent;
+	color: white;
+	border: 1px solid #5B2AD9;
+}
+
+body.dark .boton-2:hover{
+	background: #5B2AD9;
+}
+
+body.dark .div-redes img {
+	background: rgb(0, 0, 0);
+	padding: 5px;
+	border-radius: 50%;
+	border: 2px solid #5B2AD9;
+}
+
+body.dark .div-redes img:hover{
+	transition: all .5s;
+	background: white;
 }
