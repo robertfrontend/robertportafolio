@@ -208,7 +208,7 @@ color azulito cielo= #64D2C1
 }
 /*--------------*/
 .div-portafolio {
-
+	
 	padding: 0 0px;
 	margin-top: 100px;
 }
@@ -226,7 +226,7 @@ color azulito cielo= #64D2C1
 	flex-wrap: wrap;
 	max-width: 100%;
 	object-fit: cover;
-		border-radius: 20px;
+	border-radius: 20px;
 }
 
 .portafolio{
@@ -251,9 +251,9 @@ color azulito cielo= #64D2C1
 
 
 .div-imagen {
-
 	width: initial;
 	height: auto;
+	background: red;
 }
 
 .div-desc{
