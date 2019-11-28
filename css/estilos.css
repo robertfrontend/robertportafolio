@@ -45,12 +45,16 @@ color azulito cielo= #64D2C1
 
 #switch-container.flotar {
 	position: fixed;
-	bottom: 100px;
-	right: 50px;
+	bottom: 30px;
+	right: 30px;
 	z-index: 100;
-	background: white;
+	background: rgb(3, 0, 19);
 	width: 100px;
-	height: 35px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
 }
 
 
@@ -329,6 +333,7 @@ color azulito cielo= #64D2C1
 	max-width: 100%;
 	object-fit: cover;
 	border-radius: 20px;
+	text-align: center;
 }
 
 .portafolio{
@@ -339,7 +344,7 @@ color azulito cielo= #64D2C1
 
 .portafolio:hover {
 	transition: all .3s;
-	transform: translateY(-20px);
+	border-radius: 20px;
 }
 
 .div-sub-portafolio {
@@ -488,6 +493,64 @@ color azulito cielo= #64D2C1
 	text-align: center;
 	cursor: pointer;
 }
+
+/*-----*/
+
+.div-certificados{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.div-certificados h1 {
+	color: #5B2AD9;
+}
+
+.certificados{
+	width: 100%;
+	height:auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.certi-tarjert{
+	width: 400px;
+	margin: 10px auto;
+	border-radius: 20px;
+}
+
+.certi-img{
+	width: 100%;
+	height: auto;
+}
+
+.certi-img img{
+	width: 100%;
+	border-radius: 20px;
+}
+
+.desc-certi{
+	width: 100%;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+}
+
+.desc-certi h2 {
+	font-size: 24px;
+	color: white;
+}
+
+.desc-certi p {
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.678);
+}
+
 /*------contactos-----*/
 
 .div-trabajemos {
@@ -555,7 +618,7 @@ body.dark{
 }
 
 body.dark #switch-container.flotar{
-	background: rgb(0, 0, 0);
+	background: rgb(255, 255, 255);
 }
 
 body.dark .div-soy h1 {
@@ -577,13 +640,17 @@ body.dark .boton-2:hover{
 }
 
 body.dark .div-redes img {
-	background: rgb(0, 0, 0);
-	padding: 5px;
+	background: rgb(255, 255, 255);
+	padding: 2px;
 	border-radius: 50%;
-	border: 2px solid #5B2AD9;
+	border: 3px solid #5B2AD9;
 }
 
 body.dark .div-redes img:hover{
 	transition: all .5s;
 	background: white;
+}
+
+body.dark .div-portafolio p {
+	color:white;
 }

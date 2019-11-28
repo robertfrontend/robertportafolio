@@ -22,7 +22,7 @@
 		position: fixed;
 		margin-top: 0px;
 		background:rgba(45,19,140,0.7);
-		width: 100%;
+		width: 50%;
 		height: 100vh;
 		margin-left: -100vw;
 		z-index: 2;	
@@ -31,7 +31,7 @@
 	}
 
 	.div-sub-menu{
-		padding-top: 80px;
+		padding-top: 0px;
 		text-align: center;
 	}
 	.div-menu a{
@@ -56,7 +56,7 @@
 	.activador-menu{
 	
 		margin-left: 0px;
-		transition: all .2s linear;
+		transition: all .5s;
 		
 	}
 
@@ -70,7 +70,7 @@
 	}
 
 	.div-imagen {
-		max-width: 90%;
+		max-width: 100%;
 	}
 
 	.div-container {
@@ -179,6 +179,10 @@
 	.div-menu {
 		width: 100%;
 		
+	}
+
+	.titulo{
+		font-size: 30px;
 	}
 
 
