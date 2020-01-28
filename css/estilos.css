@@ -327,26 +327,6 @@ color azulito cielo= #64D2C1
 	font-weight: 500;
 }
 
-.imagen-por {
-	display: inline-block;
-	flex-wrap: wrap;
-	max-width: 100%;
-	object-fit: cover;
-	border-radius: 20px;
-	text-align: center;
-}
-
-.portafolio{
-	border-radius: 20px;
-	height: auto;
-}
-
-
-.portafolio:hover {
-	transition: all .3s;
-	border-radius: 20px;
-}
-
 .div-sub-portafolio {
 	width: 32%;
 	margin-top: 50px;
@@ -357,10 +337,33 @@ color azulito cielo= #64D2C1
 }
 
 
-.div-imagen {
-	width: initial;
+.portafolio{
+	border-radius: 20px;
 	height: auto;
 }
+
+.portafolio:hover {
+	transition: all .3s;
+	border-radius: 20px;
+}
+
+.div-imagen {
+	width: 100%;
+	height: inherit;
+}
+
+.imagen-por {
+	flex-wrap: wrap;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+	border-radius: 20px;
+	text-align: center;
+}
+
+
+
+
 
 .div-desc{
 
